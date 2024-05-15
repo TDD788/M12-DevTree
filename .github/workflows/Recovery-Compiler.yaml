@@ -36,7 +36,7 @@ on:
       DEVICE_TREE:
         description: 'Device Tree'
         required: true
-        default: 'https://github.com/TDD788/A12s-DevTree'
+        default: 'https://github.com/TDD788/M12-DevTree'
       DEVICE_TREE_BRANCH:
         description: 'Device Tree Branch'
         required: true
@@ -44,11 +44,11 @@ on:
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/samsung/a12s'
+        default: 'device/samsung/m12'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'a12s'
+        default: 'm12'
       RELEASE_TYPE:
         description: 'Official Build'
         required: true
