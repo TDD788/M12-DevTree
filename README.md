@@ -1,6 +1,6 @@
 
 
-**#Orange Fox Device configuration for Samsung Galaxy A12 Nacho / A12s**
+**#Orange Fox Device configuration for Samsung Galaxy M12 Nacho / M12**
 
 **## Device specifications**
 **Basic    | Spec Sheet**
@@ -16,17 +16,17 @@ Display  | LCD , 60Hz , 6.5 inch , 720 × 1600 pixels , 20:9 ratio
 
 *## Base Version*
 ```
-A127MUBUBDWK2-A127FXXSADWK2
+M127MUBUBDWK2-M127FXXSADWK2
 ```
 
 **## Build**
 ```
-source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a12s-eng; mka recoveryimage
+source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_m12-eng; mka recoveryimage
 ```
 
 **## Device Image**
 
-![Samsung Galaxy A12 Nacho](https://github.com/TDD788/A12s-DevTree/blob/DT-Builder/.github/pictures/device-png-a12s.jpg)
+![Samsung Galaxy M12 Nacho](https://github.com/TDD788/M12-DevTree/blob/DT-Builder/.github/pictures/device-png-a12s.jpg)
 
 ## Copyright (C)
 
@@ -44,4 +44,4 @@ source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a12
 SPDX-License-Identifier: Apache-2.0
 ```
 
-# A12s-DevTree
+# M12-DevTree
